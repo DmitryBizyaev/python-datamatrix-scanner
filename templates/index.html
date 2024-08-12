@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<head>
+    <title>DataMatrix Scanner</title>
+</head>
+<body>  
+    <h1>Считывание и распознавание DataMatrix кодов.</h1>
+    <h3>Выберите файл с изображением:</h3>
+
+    <form action="/upload_file" method="post" enctype="multipart/form-data">
+        <input type="file" name="file_data">
+        <button type="submit">Отправить</button>
+    </form>
+
+    <p id="output">{{output_text}}</p>
+</body>
